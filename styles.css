@@ -1,0 +1,226 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+img { /* Keeping this in place right now so pictures aren't so large, hero is def 100% but I'm sure the rest I'll change*/
+    max-width: 100%;
+}
+
+/* navigation */
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #530000;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.nav li {
+    padding: 20px;
+}
+
+.nav img {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.schedule {
+    height: 45px;
+    width: 130px;
+    border-radius: 12px;
+    color: #530000;
+    font-weight: bold;
+}
+
+/*hero*/
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero img {
+    filter: brightness(60%);
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.7vw;
+    font-weight: bolder;
+    text-shadow: 4px 4px 8px #000000;
+}
+
+.hero button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1vw;
+    color: #530000;
+    background-color: #ffffff;
+    border-style: none;
+    box-shadow: 2px 5px 5px #000000;
+    font-weight: bolder;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+/*location and hours*/
+
+.location {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.loc-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: baseline;
+    margin-left: 60px;
+}
+
+.loc-info h1 {
+    font-size: 2.5vw;
+    font-weight: bolder;
+}
+
+.details {
+    color: #530000;
+    font-size: 1.4vw;
+    font-weight: 300;
+    margin-right: 60px;
+    text-align: right;
+}
+
+.inner-loc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hours {
+    padding-right: 30px;
+    margin-right: 60px;
+    background-color: #530000;
+    color: #ffffff;
+    font-size: 1.5vw;
+    border-radius: 20px;
+}
+
+.hours td {
+    padding: 20px 40px 10px 40px;
+    text-align: right;
+}
+
+.inner-loc li {
+    padding: 10px;
+}
+
+.location img {
+    max-width: 30%;
+    height: auto;
+    padding: 40px;
+}
+
+/*quality cuts section*/
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #530000;
+    color: #ffffff;
+    padding: 60px;
+}
+
+.info img {
+    max-width: 50%;
+    height: auto;
+    padding: 40px;
+}
+
+.info-right p {
+    font-size: 1.2vw;
+    margin-top: 50px;
+    padding-right: 60px;
+}
+
+/*reviews*/
+.reviews {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background-image: url(./images/background.jpg);
+    padding: 40px 20px;
+}
+
+.rHeading {
+    font-size: 2.5vw;
+    font-weight: bolder;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.card {
+    width: 25%;
+    background-color: #535252a9;
+    border-radius: 8px;
+    padding-bottom: 40px;
+}
+
+.card img {
+    max-width: 70%;
+}
+/*footer*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+.footer li {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.website {
+    text-align: center;
+}
